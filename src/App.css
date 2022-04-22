@@ -1,10 +1,8 @@
 .App {
   text-align: center;
-  background-color: #23252C;
+  background-color: #23252c;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
   color: black;
 }
@@ -14,11 +12,25 @@
   width: 400px;
   border-style: solid;
   border-width: 5px;
-  border-color: white;
+  border-color: antiquewhite;
   border-radius: 10px;
-  background-color: azure;
+  background-color: antiquewhite;
+  flex-direction: column;
 }
 
 .card-header > img {
   border: 5px;
+}
+
+.mainInfo {
+  margin-bottom: auto;
+}
+
+.footer {
+  position: absolute;
+  width: 400px;
+  height: 75px;
+  top: 800px;
+  background: #d5d4d8;
+  border-radius: 0px 0px 10px 10px;
 }
