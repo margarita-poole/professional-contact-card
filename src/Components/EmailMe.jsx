@@ -1,11 +1,23 @@
-const EmailMe = () => {
+import { useState } from 'react'
+import ContactUs from './SendEmail'
+
+const EmailButton = () => {
+  const [isContactUs, setIsContactUs] = useState(false)
+
+  const onClick = () => {
+    setIsContactUs(!isContactUs)
+  }
+
+
+
   return (
     <div>
-      <a href='mailto:margaritapoole311@address.com?subject=just-a-subject'>
-        <button type='button' className='emailMeButton'>✉ Email Me</button>
-      </a>
+      <button type='button' className='emailMeButton' onClick={onClick}>
+        ✉ Email Me
+      </button>
+      {isContactUs && <ContactUs />}
     </div>
   )
 }
 
-export default EmailMe
+export default EmailButton

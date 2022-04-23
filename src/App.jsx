@@ -1,7 +1,7 @@
 import './App.css'
 import Margarita from './Assets/margarita.jpg'
 import AboutMe from './Components/AboutMe'
-import EmailMe from './Components/EmailMe'
+import EmailButton from './Components/EmailMe'
 import Footer from './Components/Footer'
 import HeaderInfo from './Components/HeaderInfo'
 
@@ -17,7 +17,7 @@ function App() {
         ></img>
         <main className='mainInfo'>
           <HeaderInfo />
-          <EmailMe />
+          <EmailButton />
           <AboutMe />
         </main>
         <Footer />

@@ -46,6 +46,18 @@
   cursor: pointer; 
 }
 
+.formContainer {
+
+}
+
+.form-control {
+  display: flex;
+  padding-top: 30px;
+  margin: 0 auto;
+}
+
+
+
 .aboutMe {
   margin: 25px 20px;
 }
