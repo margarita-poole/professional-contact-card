@@ -1,7 +1,7 @@
 import './App.css'
 import Margarita from './Assets/margarita.jpg'
 import AboutMe from './Components/AboutMe'
-import EmailButton from './Components/EmailMe'
+import EmailButton from './Components/ContactMe/EmailMe'
 import Footer from './Components/Footer'
 import HeaderInfo from './Components/HeaderInfo'
 

@@ -8,14 +8,12 @@ const EmailButton = () => {
     setIsContactUs(!isContactUs)
   }
 
-
-
   return (
     <div>
       <button type='button' className='emailMeButton' onClick={onClick}>
         ✉ Email Me
       </button>
-      {isContactUs && <ContactUs />}
+      {isContactUs && <ContactUs onClick={onClick}/>}
     </div>
   )
 }
