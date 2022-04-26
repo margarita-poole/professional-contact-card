@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/professional-contact-card/static/css/main.29da7e70.css",
+    "main.js": "/professional-contact-card/static/js/main.1ebd25b3.js",
+    "static/js/787.3ae72c80.chunk.js": "/professional-contact-card/static/js/787.3ae72c80.chunk.js",
+    "static/media/margarita.jpg": "/professional-contact-card/static/media/margarita.67c69d931c33079ac2a6.jpg",
+    "index.html": "/professional-contact-card/index.html",
+    "main.29da7e70.css.map": "/professional-contact-card/static/css/main.29da7e70.css.map",
+    "main.1ebd25b3.js.map": "/professional-contact-card/static/js/main.1ebd25b3.js.map",
+    "787.3ae72c80.chunk.js.map": "/professional-contact-card/static/js/787.3ae72c80.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29da7e70.css",
+    "static/js/main.1ebd25b3.js"
+  ]
+}
